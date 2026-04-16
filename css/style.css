@@ -1,0 +1,44 @@
+body {
+  background:#010101;
+  color:white;
+  font-family:system-ui;
+  overflow-x:hidden;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg,#fff,#FA93FA,#983AD6);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.glass {
+  background: rgba(28,27,36,0.15);
+  backdrop-filter: blur(12px);
+  border:1px solid rgba(255,255,255,0.08);
+}
+
+.card {
+  padding:30px;
+  border-radius:12px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  transition:0.4s;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.02);
+}
+
+.section {
+  padding:100px 20px;
+}
+
+.cursor {
+  position: fixed;
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  background:#C967E8;
+  pointer-events:none;
+  mix-blend-mode:difference;
+}
